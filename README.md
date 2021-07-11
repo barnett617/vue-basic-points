@@ -20,5 +20,17 @@ npm run build
 npm run lint
 ```
 
+### Test and Coverage
+```
+npm run test:unit
+```
+
+## Architecture
+
+- vue
+- vue-router
+- scss/sass
+- jest
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

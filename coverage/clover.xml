@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1626019256208" clover="3.2.0">
+  <project timestamp="1626019256208" name="All files">
+    <metrics statements="15" coveredstatements="13" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="4" elements="26" coveredelements="22" complexity="0" loc="15" ncloc="15" packages="2" files="2" classes="2"/>
+    <package name="common.js">
+      <metrics statements="13" coveredstatements="12" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <file name="utils.js" path="/Users/wangxin/code/github/2021/vue-basic-points/src/common/js/utils.js">
+        <metrics statements="13" coveredstatements="12" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="13" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.PointList">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="index.vue" path="/Users/wangxin/code/github/2021/vue-basic-points/src/components/PointList/index.vue">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
