@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Hi, there</h1>
+    <h1>Hi, there Come on!</h1>
     <point-list :pointList="pointListData"/>
   </div>
 </template>
