@@ -12,6 +12,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:barnett617/vue-basic-points.git master:gh-pages
+git push -f git@github.com:barnett617/vue-basic-points.git main:gh-pages
 
 cd -

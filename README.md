@@ -1,5 +1,7 @@
 # vue-basic-points
 
+[![Build Status](https://travis-ci.com/barnett617/vue-basic-points.svg?branch=main)](https://travis-ci.com/barnett617/vue-basic-points)
+
 ## Project setup
 ```
 npm install
