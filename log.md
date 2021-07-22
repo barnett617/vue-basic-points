@@ -12,9 +12,9 @@ Vue CLI官方文档中提供了两种基于Github Pages的CI方式，其中第�
 
 另外就是通过集成travis的自动化方式，核心步骤如下
 
-1. 在本地安装travis客户端
-2. 使用github登录travis
-3. 设置travis变量（用于travis调用github API来拉取你的github项目）
+1. 在本地安装travis客户端(gem install travis)
+2. 使用github登录travis(travis login --com --github-token xxx)
+3. 设置travis变量（用于travis调用github API来拉取你的github项目）(travis env set GITHUB_TOKEN xxx)
 4. 项目中增加travis配置文件
 5. 在travis网站观察CI结果
 
