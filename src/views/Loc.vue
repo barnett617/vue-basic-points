@@ -12,6 +12,7 @@
   </div>
 </template>
 <script>
+import axios from 'axios'
 export default {
   data() {
     return {
@@ -34,7 +35,7 @@ export default {
   methods: {
     getLoc() {
       let url = 'http://47.92.228.193:8990/'
-      fetch(url).then(res => res.json()).then(res => {
+      axios.get(url).then(res => res.data).then(res => {
         console.log('res', res);
         if (+res.errno === 0) {
           const obj = res.data
