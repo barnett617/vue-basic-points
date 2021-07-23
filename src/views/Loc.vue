@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     getLoc() {
-      let url = 'http://47.92.228.193:8990'
+      let url = '//47.92.228.193:8990'
       axios.get(url).then(res => res.data).then(res => {
         console.log('res', res);
         if (+res.errno === 0) {
