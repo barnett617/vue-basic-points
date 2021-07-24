@@ -36,3 +36,29 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Config
+
+account.js
+```js
+const account = {
+  ak: '',
+  api: 'ip:port',
+  deployUrl: 'http://ip:port/'
+}
+
+export {
+  account
+}
+```
+
+account.common.js
+```js
+const account = {
+  ak: '',
+  api: 'ip:port',
+  deployUrl: 'http://ip:port/'
+}
+
+module.exports.account = account
+```
